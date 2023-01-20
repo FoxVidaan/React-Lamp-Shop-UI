@@ -1,0 +1,57 @@
+.control {
+  position: relative;
+  top: 20px;
+  margin-left: auto;
+  background: #bdddde;
+  box-shadow: inset -10px 0px 19px -20px rgb(0 0 2);
+  border-radius: 7px 0 0 7px;
+}
+
+.control ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+}
+
+.control ul li {
+  border-radius: 7px;
+  height: 65px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.control ul li:hover {
+  background: #deedee;
+}
+
+.control ul li img {
+  height: 50%;
+}
+
+.control .day-night {
+  display: flex;
+  cursor: pointer;
+}
+
+.control .day-night .button {
+  flex: 1;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff3da;
+  border-radius: 0 0 0 7px;
+  height: 40px;
+}
+
+.control .day-night .button:last-child {
+  background: #94a6a6;
+  border-radius: 0;
+}
+
+.control .day-night .button img {
+  width: 20px;
+}

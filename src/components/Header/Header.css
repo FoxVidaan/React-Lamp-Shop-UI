@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+}
+
+.header img {
+    height: 45px;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 28px;
+}
+
+.header ul li a {
+    font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133.84%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3d9090;
+}

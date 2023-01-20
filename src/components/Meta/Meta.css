@@ -1,0 +1,46 @@
+.meta {
+    position: relative;
+    height: 100%;
+}
+
+.meta::before {
+    content: '';
+    position: absolute;
+    background: #E4D8B9;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    inset: -20px;
+    top: 10px;
+    left: -30px;
+}
+
+.meta ul {
+    position: relative;
+    height: 230px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 10px;
+    left: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 133%;
+    letter-spacing: 0.055em;
+}
+
+.meta ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.meta img {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translateX(-50%);
+    max-width: 80px;
+}

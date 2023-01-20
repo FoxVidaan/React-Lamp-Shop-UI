@@ -36,7 +36,7 @@ function App() {
             {backgroundImage: "url('/images/Mask-group-dark.png')"}
           }
         >
-          {/* {step === 1 && (
+          {step === 1 && (
             <img
               src={`/images/Lamp-1.png`}
               alt="lamp"
@@ -56,7 +56,7 @@ function App() {
               alt="lamp"
               className={step === 3 ? "active" : ""}
             />
-          )} */}
+          )}
         </div>
       </div>
     </div>

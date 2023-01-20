@@ -40,6 +40,8 @@
   background-size: cover;
   background-position: center;
   border-radius: 9px;
+  transition: background-image 0.1s ease-out;
+
 }
 
 .app .container .right img {

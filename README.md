@@ -1,3 +1,8 @@
+# Application preview 
+
+![Dark mode off](/public/images/darkModeOffPreview.png)
+![Dark mode on](/public//images/darkModeOnPreview.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
